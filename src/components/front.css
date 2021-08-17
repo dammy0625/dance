@@ -1,0 +1,124 @@
+.reg{
+    color: rgba(255, 255, 255, 0.678);
+    position: absolute;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    bottom: 100px;
+    
+}
+.holla{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/src/welcome2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:-50px ;
+}
+.email{
+    width: 50%;
+    margin-top: 280px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.589);
+    outline: none;
+    color: whitesmoke;
+    font-family: Monaco, Consolas, 'Courier New',
+    monospace;
+    font-size: 20px;
+
+}
+.password{
+    width: 50%;
+    margin-top: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.589);
+    outline: none;
+    color: whitesmoke;
+    font-family: Monaco, Consolas, 'Courier New',
+    monospace;
+    font-size: 20px;
+
+}
+.mail{
+    color: rgba(245, 245, 245, 0.589);
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    font-family: Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.pass{
+    color: rgba(245, 245, 245, 0.589);
+    position: absolute;
+    top: 320px;
+    left: 350px;
+    font-family: Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.btn{
+    background-color: rgb(156, 11, 96);
+    border: none;
+    color: rgba(245, 245, 245, 0.603);
+    position: absolute;
+    bottom: 40px;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 0;
+    border-radius: 30px;
+    font-weight: lighter;
+    font-size: 20px;
+    position: fixed;
+}
+.btn1{
+    background-color: rgb(73, 6, 45);
+    border: none;
+    color: rgba(245, 245, 245, 0.603);
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    width: 10%;
+    font-weight: lighter;
+    font-size: 16px;
+    padding: 10px 0;
+    border-radius: 30px;
+    position: fixed;
+
+}
+@media (max-width:450px){
+    .btn1{
+        width: 20%;
+        top: 40px;
+        right: 20px;
+    }
+    .holla{
+        background-image: url(/src/welcome1.jpg);
+        background-position-y:0px ;
+        overflow: hidden;
+        background-size: cover;
+    }
+    .mail{
+        top: 300px;
+        left: 50px;
+    }
+    .pass{
+        
+        position: absolute;
+        top: 370px;
+        left: 50px;
+    }
+    .email{
+        width: 80%;
+        margin-top: 330px;
+        margin-left: 0;
+        font-size: 15px;
+    
+    }.password{
+        width: 80%;
+        margin-top: 50px;
+        font-size: 15px;
+    
+    }
+}

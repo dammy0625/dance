@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+body{
+  background-image: url("./damis2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+reg{
+    color: white;
+}
+@media (max-width:450px){
+  body{
+    background-image: url("./damis1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+  }
+  
+}
