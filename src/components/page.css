@@ -1,0 +1,49 @@
+.first{
+    background-image: url("/src/dance1.jpg");
+    height: 100vh;
+    width: 100vw;
+}
+.body{
+    background-image: url("/src/full1.jpg");
+    height: 310vh;
+    width: 100vw;
+    background-position-x: -100%;
+    position: relative;
+}
+.final{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/src/print1.jpg);
+}
+.version{
+    position: absolute;
+    font-size: 14px;
+    bottom: 200px;
+    right: 10px;
+}
+.ways{
+    position: absolute;
+    bottom: 770px;
+    font-size: 30px;
+    width: 100%;
+    color: rgb(151, 30, 9);
+    
+}
+.unor{
+    position: absolute;
+    bottom: 300px;
+    justify-content: space-around;
+    width: 80%;
+}
+.unor li{
+    margin: 100px 50px 0 50px;
+    font-size: 15px;
+    font-family: monospace;
+    color: rgb(116, 8, 116);
+}
+.footer{
+    position: absolute;
+    bottom: 20px;
+    right: 70px;
+    color: rgb(92, 4, 92);
+}
