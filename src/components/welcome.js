@@ -16,7 +16,7 @@ function Welcome(){
     return(
        <div className ="holla">
            <form>
-           <Input for ="mail" class="mail" name="Name" class1="email" 
+           <Input for ="mail" class="mail" name="E-mail" class1="email" 
            type ="text" value={email} onChange={(e)=>{setEmail(e.target.value)}} />
 
            <Input for ="is" class="pass" name="Password" class1="password" 
@@ -25,14 +25,16 @@ function Welcome(){
            <button className = "btn" type="submit" 
            onClick={(e)=>{
                e.preventDefault()
-               if(email.length < 1){
-                   setValid("please input a name")
-               }else{setValid("")}
+               if(email.length < 11){
+                setValid("please input a valid e-mail")
+            }else if(email.indexOf("@") < 2){
+                setValid("incorrect e-mail address")
+            }else{setValid("")}
                if(password.length < 8){
                    setValidps("input an eigth digit password or more")
                }else{ setValidps(""); }
 
-               if( email.length > 1 & password.length > 8){
+               if( email.length > 11 & email.indexOf("@") > 2 & password.length > 8 ){
                    setGoin("show")
                }
            }}

@@ -1,49 +1,253 @@
 .first{
-    background-image: url("/src/dance1.jpg");
+    background-image: url("/src/dance2.jpg");
+    background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
+    overflow-x:hidden;
 }
-.body{
-    background-image: url("/src/full1.jpg");
-    height: 310vh;
-    width: 100vw;
-    background-position-x: -100%;
-    position: relative;
-}
-.final{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(/src/print1.jpg);
+body{
+    overflow-x: hidden;
 }
 .version{
     position: absolute;
     font-size: 14px;
-    bottom: 200px;
-    right: 10px;
-}
-.ways{
-    position: absolute;
-    bottom: 770px;
-    font-size: 30px;
-    width: 100%;
-    color: rgb(151, 30, 9);
-    
-}
-.unor{
-    position: absolute;
-    bottom: 300px;
-    justify-content: space-around;
-    width: 80%;
-}
-.unor li{
-    margin: 100px 50px 0 50px;
-    font-size: 15px;
-    font-family: monospace;
-    color: rgb(116, 8, 116);
-}
-.footer{
-    position: absolute;
     bottom: 20px;
-    right: 70px;
-    color: rgb(92, 4, 92);
+    right: 100px;
+}
+.for{
+        color: rgba(255, 255, 255, 0.671);
+        position: absolute;
+        width: 100%;
+        top: 110px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 16px;
+    }
+    .mai{
+        position: absolute;
+        top: 200px;
+        left: 10px;
+        font-weight: bolder;
+        font-size: 18px;
+        color: white;
+        position: fixed;
+    }
+    .emai{
+        background-color: rgba(0, 0, 0, 0.404);
+        position: absolute;
+        top: 230px;
+        position: fixed;
+        left: 20px;
+        border: none;
+        width: 60%;
+        border-bottom: 2px solid white;
+    
+    }
+    .body{
+        background-image: url("/src/full3.jpg");
+        background-repeat: no-repeat;
+        height: 610vh;
+        width: 100vw;
+        background-position-x: -100%;
+        position: relative;
+        
+    }
+    .final{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(/src/final2.jpg);
+    }
+    .version{
+        position: absolute;
+        font-size: 14px;
+        bottom: 200px;
+        right: 10px;
+    }
+    .ways{
+        position: absolute;
+        bottom: 530px;
+        font-size: 35px;
+        width: 100%;
+        color: rgb(151, 30, 9);
+        
+    }
+    .unor{
+        position: absolute;
+        bottom: 100px;
+        justify-content: space-around;
+        width: 80%;
+    }
+    .unor li{
+        margin: 100px 50px 0 50px;
+        font-size: 15px;
+        font-family: monospace;
+        color: rgb(116, 8, 116);
+    }
+    .footer{
+        position: absolute;
+        bottom: 20px;
+        right: 70px;
+        color: rgb(92, 4, 92);
+    }
+
+
+@media (max-width:378px){
+    .first{
+        background-image: url("/src/dance1.jpg");
+        
+    }
+    .for{
+        color: rgba(255, 255, 255, 0.671);
+        position: absolute;
+        width: 100%;
+        top: 110px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 16px;
+    }
+    .mai{
+        position: absolute;
+        top: 200px;
+        left: 10px;
+        font-weight: bolder;
+        font-size: 18px;
+        color: white;
+        position: fixed;
+    }
+    .emai{
+        background-color: rgba(0, 0, 0, 0.404);
+        position: absolute;
+        top: 230px;
+        position: fixed;
+        left: 20px;
+        border: none;
+        width: 60%;
+        border-bottom: 2px solid white;
+    
+    }
+    .body{
+        background-image: url("/src/full1.jpg");
+        background-position-x: 100%;
+        height: 310vh;
+        width: 100vw;
+        overflow: scroll;
+        position: relative;
+    }
+    .final{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(/src/print1.jpg);
+    }
+    .version{
+        position: absolute;
+        font-size: 14px;
+        bottom: 200px;
+        right: 10px;
+    }
+    .ways{
+        position: absolute;
+        bottom: 770px;
+        font-size: 30px;
+        width: 100%;
+        color: rgb(151, 30, 9);
+        
+    }
+    .unor{
+        position: absolute;
+        bottom: 300px;
+        justify-content: space-around;
+        width: 80%;
+    }
+    .unor li{
+        margin: 100px 50px 0 50px;
+        font-size: 15px;
+        font-family: monospace;
+        color: rgb(116, 8, 116);
+    }
+    .footer{
+        position: absolute;
+        bottom: 20px;
+        right: 70px;
+        color: rgb(92, 4, 92);
+    }
+}
+@media (min-width:400px) and (max-width:416px){
+    .first{
+        background-image: url("/src/dance1.jpg");
+        background-position-x: 0px;
+        background-size: cover;
+    }
+    .for{
+        color: rgba(255, 255, 255, 0.671);
+        position: absolute;
+        width: 100%;
+        top: 110px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 16px;
+    }
+    .mai{
+        position: absolute;
+        top: 200px;
+        left: 10px;
+        font-weight: bolder;
+        font-size: 18px;
+        color: white;
+        position: fixed;
+    }
+    .emai{
+        background-color: rgba(0, 0, 0, 0.404);
+        position: absolute;
+        top: 230px;
+        position: fixed;
+        left: 20px;
+        border: none;
+        width: 60%;
+        border-bottom: 2px solid white;
+    
+    }
+    .body{
+        background-image: url("/src/full2.jpg");
+        
+        height: 330vh;
+        width: 100vw;
+        
+        position: relative;
+    }
+    .final{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(/src/print1.jpg);
+        background-position-x: 10px;
+        background-size: cover;
+    }
+    .version{
+        position: absolute;
+        font-size: 14px;
+        bottom: 200px;
+        right: 10px;
+    }
+    .ways{
+        position: absolute;
+        bottom: 640px;
+        font-size: 30px;
+        width: 100%;
+        color: rgb(151, 30, 9);
+        
+    }
+    .unor{
+        position: absolute;
+        bottom: 200px;
+        justify-content: space-around;
+        width: 80%;
+    }
+    .unor li{
+        margin: 100px 50px 0 50px;
+        font-size: 15px;
+        font-family: monospace;
+        color: rgb(116, 8, 116);
+    }
+    .footer{
+        position: absolute;
+        bottom: 30px;
+        right: 150px;
+        color: rgb(92, 4, 92);
+    }
 }
